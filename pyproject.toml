@@ -1,0 +1,23 @@
+[project]
+name = "vm-chatbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "faiss-cpu>=1.11.0",
+    "fastapi>=0.115.13",
+    "groq>=0.28.0",
+    "langchain>=0.3.26",
+    "langchain-experimental>=0.3.4",
+    "langchain-groq>=0.3.4",
+    "numpy>=2.3.1",
+    "openpyxl>=3.1.5",
+    "pandas>=2.3.0",
+    "python-dotenv>=1.1.1",
+    "requests>=2.32.4",
+    "streamlit>=1.46.0",
+    "tabulate>=0.9.0",
+    "tiktoken>=0.9.0",
+    "uvicorn>=0.34.3",
+]
