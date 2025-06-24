@@ -8,7 +8,7 @@ API_URL = "http://localhost:8000/chat"
 
 question = st.text_input("Ask a question about your VM data:")
 
-if st.button("Submit") and question:
+if st.button("Ask") and question:
     with st.spinner("Thinking..."):
         try:
             response = requests.post(API_URL, params={"question": question})
